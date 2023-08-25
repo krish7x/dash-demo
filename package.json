@@ -1,0 +1,31 @@
+{
+  "name": "react-easy-styles",
+  "version": "0.0.1",
+  "description": "Dash demo project",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "repository": "https://github.com/krish7x/dash-demo.git",
+  "author": "krishnakumar",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts}\""
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.18",
+  "dependencies": {
+    "@changesets/changelog-git": "0.1.14",
+    "@changesets/cli": "^2.26.2"
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "turbo": "1.10.12"
+  }
+}
