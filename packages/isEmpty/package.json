@@ -13,7 +13,7 @@
   "scripts": {
     "build": "tsup index.ts --format esm,cjs --dts --minify",
     "dev": "tsup index.ts --sourcemap --format esm,cjs --watch --dts",
-    "lint": "TIMING=1 eslint .ts* --fix"
+    "lint": "TIMING=1 eslint *.ts* --fix"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "6.4.1",
