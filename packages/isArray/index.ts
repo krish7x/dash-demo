@@ -1,1 +1,1 @@
-export default (data) => Array.isArray(data)
+export default (data: any) => Array.isArray(data)
