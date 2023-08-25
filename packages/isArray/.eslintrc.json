@@ -16,7 +16,7 @@
       "plugin:@typescript-eslint/stylistic"
   ],
   "plugins": [
-      "@typescript-eslint", "no-null", "eslint-plugin-local", "simple-import-sort"
+      "@typescript-eslint"
   ],
   "ignorePatterns": [
       "**/node_modules/**",
@@ -123,8 +123,6 @@
       "local/no-keywords": "error",
       "local/jsdoc-format": "error",
 
-      // eslint-plugin-no-null
-      "no-null/no-null": "error",
 
       // eslint-plugin-simple-import-sort
       "simple-import-sort/imports": "error",
